@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 4.8.1 mingw32 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -D__FPU_USED -I..\..\..\..\..\Users\shuck\Documents\GitHub\RCsemiSTM32F4_ver200\RCsemiSTM32F4_Ver200\example -I..\..\..\..\..\Users\shuck\Documents\GitHub\RCsemiSTM32F4_ver200\RCsemiSTM32F4_Ver200\lib\STM32F4xx_StdFramework -I..\..\..\..\..\Users\shuck\Documents\GitHub\RCsemiSTM32F4_ver200\RCsemiSTM32F4_Ver200\tools -I..\..\..\..\..\Users\shuck\Documents\GitHub\RCsemiSTM32F4_ver200\RCsemiSTM32F4_Ver200 -I..\..\..\..\..\Users\shuck\Documents\GitHub\RCsemiSTM32F4_ver200\RCsemiSTM32F4_Ver200\lib\semihosting -I..\..\..\..\..\Users\shuck\Documents\GitHub\RCsemiSTM32F4_ver200\RCsemiSTM32F4_Ver200\lib\rcsemi\inc -I..\..\..\..\..\Users\shuck\Documents\GitHub\RCsemiSTM32F4_ver200\RCsemiSTM32F4_Ver200\lib\STM32F4xx_StdFramework\StdPeriphLib -I..\..\..\..\..\Users\shuck\Documents\GitHub\RCsemiSTM32F4_ver200\RCsemiSTM32F4_Ver200\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\inc -I..\..\..\..\..\Users\shuck\Documents\GitHub\RCsemiSTM32F4_ver200\RCsemiSTM32F4_Ver200\lib\rcsemi -I..\..\..\..\..\Users\shuck\Documents\GitHub\RCsemiSTM32F4_ver200 -I..\..\..\..\..\Users\shuck\Documents\GitHub\RCsemiSTM32F4_ver200\RCsemiSTM32F4_Ver200\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver -I..\..\..\..\..\Users\shuck\Documents\GitHub\RCsemiSTM32F4_ver200\RCsemiSTM32F4_Ver200\lib -I..\..\..\..\..\Users\shuck\Documents\GitHub\RCsemiSTM32F4_ver200\RCsemiSTM32F4_Ver200\lib\STM32F4xx_StdFramework\CMSIS">
+      <target file="04_PSpad.o" lastModified="153cff6cc16">
+         <source file="..\..\..\example\04_PSpad.c" lastModified="1531b380e91"/>
+      </target>
+      <target file="digitalIO.o" lastModified="153cfe5228c">
+         <source file="..\..\..\lib\rcsemi\src\digitalIO.c" lastModified="1531af0c657"/>
+      </target>
+      <target file="stm32f4xx_cryp_aes.o" lastModified="153cfe50a9f">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_aes.c" lastModified="152bed154b2"/>
+      </target>
+      <target file="stm32f4xx_fsmc.o" lastModified="153cfe527d0">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c" lastModified="152bed15501"/>
+      </target>
+      <target file="syscalls.o" lastModified="153cfe52e97">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\syscalls.c" lastModified="152bed15603"/>
+      </target>
+      <target file="pspad.o" lastModified="153cfe5095d">
+         <source file="..\..\..\lib\rcsemi\src\pspad.c" lastModified="152bed15654"/>
+      </target>
+      <target file="tools.o" lastModified="153cfe5308a">
+         <source file="..\..\..\tools\tools.c" lastModified="152bed4662b"/>
+      </target>
+      <target file="03_Motor.o" lastModified="153cff6ca37">
+         <source file="..\..\..\example\03_Motor.c" lastModified="153cff1a974"/>
+      </target>
+      <target file="misc.o" lastModified="153cfe539b0">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\misc.c" lastModified="152bed1547f"/>
+      </target>
+      <target file="06_ADC.o" lastModified="153cff6cb4e">
+         <source file="..\..\..\example\06_ADC.c" lastModified="152bed1531b"/>
+      </target>
+      <target file="05_RotaryENC.o" lastModified="153cff6c96f">
+         <source file="..\..\..\example\05_RotaryENC.c" lastModified="1531b42c946"/>
+      </target>
+      <target file="stm32f4xx_cryp.o" lastModified="153cfe526a4">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp.c" lastModified="152bed154aa"/>
+      </target>
+      <target file="sh_cmd.o" lastModified="153cfe52bfe">
+         <source file="..\..\..\lib\semihosting\sh_cmd.s" lastModified="152bed15699"/>
+      </target>
+      <target file="rs485_master.o" lastModified="153cfe52932">
+         <source file="..\..\..\tools\rs485_master.c" lastModified="152bed156b3"/>
+      </target>
+      <target file="stm32f4xx_cryp_des.o" lastModified="153cfe5246d">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_des.c" lastModified="152bed154bb"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="153cfe54100">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c" lastModified="152bed155a7"/>
+      </target>
+      <target file="usart.o" lastModified="153cfe54314">
+         <source file="..\..\..\lib\rcsemi\src\usart.c" lastModified="152bed15681"/>
+      </target>
+      <target file="stm32f4xx_iwdg.o" lastModified="153cfe51b0e">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_iwdg.c" lastModified="152bed1553d"/>
+      </target>
+      <target file="stm32f4xx_exti.o" lastModified="153cfe5385e">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c" lastModified="152bed154ed"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="153cfe52a4e">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c" lastModified="152bed15511"/>
+      </target>
+      <target file="motherboard.o" lastModified="153cfe50857">
+         <source file="..\..\..\lib\rcsemi\src\motherboard.c" lastModified="152bed1564a"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="153cfe5107e">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c" lastModified="152bed155b0"/>
+      </target>
+      <target file="stm32f4xx_rtc.o" lastModified="153cfe53d9a">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rtc.c" lastModified="152bed1555e"/>
+      </target>
+      <target file="stm32f4xx_hash_sha1.o" lastModified="153cfe50d37">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_sha1.c" lastModified="152bed1552d"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="153cfe51cdd">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c" lastModified="152bed1554d"/>
+      </target>
+      <target file="stm32f4xx_dac.o" lastModified="153cfe51861">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dac.c" lastModified="152bed154c8"/>
+      </target>
+      <target file="stm32f4xx_can.o" lastModified="153cfe5133b">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_can.c" lastModified="152bed15496"/>
+      </target>
+      <target file="stm32f4xx_pwr.o" lastModified="153cfe511a7">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_pwr.c" lastModified="152bed15544"/>
+      </target>
+      <target file="stm32f4xx_wwdg.o" lastModified="153cfe5156f">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_wwdg.c" lastModified="152bed155bb"/>
+      </target>
+      <target file="stm32f4xx_rng.o" lastModified="153cfe53764">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rng.c" lastModified="152bed15556"/>
+      </target>
+      <target file="stm32f4xx_adc.o" lastModified="153cfe51eb2">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_adc.c" lastModified="152bed1548a"/>
+      </target>
+      <target file="01_DigitalIO.o" lastModified="153cff6cc6b">
+         <source file="..\..\..\example\01_DigitalIO.c" lastModified="153cfec81e1"/>
+      </target>
+      <target file="stm32f4xx_flash.o" lastModified="153cfe52baa">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash.c" lastModified="152bed154f5"/>
+      </target>
+      <target file="stm32f4xx_cryp_tdes.o" lastModified="153cfe53f2a">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_tdes.c" lastModified="152bed154c1"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="153cfe52fa2">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c" lastModified="152bed154e2"/>
+      </target>
+      <target file="stm32f4xx_dcmi.o" lastModified="153cfe5200d">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dcmi.c" lastModified="152bed154d9"/>
+      </target>
+      <target file="07_Terunet.o" lastModified="153cff6ccbf">
+         <source file="..\..\..\example\07_Terunet.c" lastModified="152bed15320"/>
+      </target>
+      <target file="00_Model.o" lastModified="153cff6c9d4">
+         <source file="..\..\..\example\00_Model.c" lastModified="1531ae86493"/>
+      </target>
+      <target file="timer.o" lastModified="153cfe50e54">
+         <source file="..\..\..\lib\rcsemi\src\timer.c" lastModified="152bed1567e"/>
+      </target>
+      <target file="terunet.o" lastModified="153cfe532e8">
+         <source file="..\..\..\lib\rcsemi\src\terunet.c" lastModified="152bed1567b"/>
+      </target>
+      <target file="stm32f4xx_crc.o" lastModified="153cfe519ac">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_crc.c" lastModified="152bed154a2"/>
+      </target>
+      <target file="stm32f4xx_sdio.o" lastModified="153cfe50779">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sdio.c" lastModified="152bed15568"/>
+      </target>
+      <target file="stm32f4xx_hash_md5.o" lastModified="153cfe516ab">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_md5.c" lastModified="152bed15525"/>
+      </target>
+      <target file="stm32f4xx_dbgmcu.o" lastModified="153cfe54206">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dbgmcu.c" lastModified="152bed154d2"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="153cfe5366d">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c" lastModified="152bed15534"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="153cfe505a9">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c" lastModified="152bed1559d"/>
+      </target>
+      <target file="adc.o" lastModified="153cfe53176">
+         <source file="..\..\..\lib\rcsemi\src\adc.c" lastModified="152f1c170ae"/>
+      </target>
+      <target file="stm32f4xx_hash.o" lastModified="153cfe50ba6">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash.c" lastModified="152bed1551b"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="153cfe53541">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c" lastModified="152bed15595"/>
+      </target>
+      <target file="xprintf.o" lastModified="153cfe524f4">
+         <source file="..\..\..\lib\rcsemi\src\xprintf.c" lastModified="152bed15687"/>
+      </target>
+      <target file="semihosting.o" lastModified="153cfe503d5">
+         <source file="..\..\..\lib\semihosting\semihosting.c" lastModified="152bed15690"/>
+      </target>
+      <target file="rotary_encoder.o" lastModified="153cfe51432">
+         <source file="..\..\..\lib\rcsemi\src\rotary_encoder.c" lastModified="152bed15677"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="153cfe52d4a">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\StdPeriphLib\system_stm32f4xx.c" lastModified="152bed155c9"/>
+      </target>
+      <target file="02_MotherBoard.o" lastModified="153cff6cbb2">
+         <source file="..\..\..\example\02_MotherBoard.c" lastModified="1531b0298f3"/>
+      </target>
+      <target file="stm32f4xx_Startup.o" lastModified="153cfe50f4e">
+         <source file="..\..\..\lib\STM32F4xx_StdFramework\Startup\stm32f4xx_Startup.c" lastModified="152bed15351"/>
+      </target>
+      <target file="motor.o" lastModified="153cfe5216f">
+         <source file="..\..\..\lib\rcsemi\src\motor.c" lastModified="152bed15650"/>
+      </target>
+   </processor>
+</history>
