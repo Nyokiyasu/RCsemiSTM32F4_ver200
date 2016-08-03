@@ -19,7 +19,7 @@
 #include <stm32f4xx.h>	// **最初にインクルードする
 #include "terunet.h"
 #include "timer.h"
-#include "rs485_master.h"
+#include "terunet_motorDriver.h"
 
 int main(void)
 {
@@ -39,7 +39,7 @@ int main(void)
 	while(1)
 	{
 		tmp = 50 - tmp;
-		RS485_fastMotor_Drive_LPC2(0, tmp, recv);
+		Terunet_MD_Drive(0x02, 0, tmp, recv);
 		delay_ms(100);
 	}
 	/* ---------------------------------------------- */

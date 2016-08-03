@@ -1,0 +1,32 @@
+/***************************************************************************
+ *	@ファイル名	:	terunet_***.c
+ *	@概要		:	Terunet通信のスレーブ機能を追加するときに使用してほしいテンプレート
+ 					以下の「***」はスレーブの名前に置き換えるように.
+ *	@バージョン	:	1.0.0
+ *	@開発者		:	キネクト
+ *	@使用環境	:	STM32F4DISCOVERY, MB_Ver2, Coocox CoIDE
+ **************************************************************************/
+ 
+#include "terunet.h"
+#include "terunet_common.h"
+#include "terunet_***.h"
+#include "terunet_slaveAddress.h"
+
+int Terunet_***_Req~~~(u8 addr,...)
+{
+}
+int Terunet_***_Req~~~(u8 addr,...)
+{
+}
+int Terunet_***_Read~~~(u8 addr,...)
+{
+}
+int Terunet_***_Read~~~(u8 addr,...)
+{
+}
+int Terunet_***_Set~~~(u8 addr,...)
+{
+}
+int Terunet_***_Set~~~(u8 addr,...)
+{
+}
